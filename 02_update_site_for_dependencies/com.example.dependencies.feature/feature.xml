@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+	id="com.example.dependencies.feature"
+	label="Dependencies Feature"
+	version="1.0.0.qualifier"
+	provider-name="Example Provider">
+
+	<!-- important: changes need to be duplicated in ../pom.xml -->
+
+	<plugin
+		id="org.seleniumhq.selenium.selenium-java"
+		download-size="0"
+		install-size="0"
+		version="0.0.0"/>
+
+</feature>
